@@ -1,0 +1,7 @@
+# Runtime data written by the app into its own directory
+pins.txt
+icons/
+
+__pycache__/
+*.py[cod]
+.venv/
