@@ -1,6 +1,5 @@
 @echo off
-rem Start DesktopDock. pythonw keeps the console window hidden.
+rem Builds if needed and starts the dock. For a standalone exe use publish.bat.
 setlocal
 cd /d "%~dp0"
-where pythonw >nul 2>nul && (start "" pythonw "DesktopDock.pyw" & goto :eof)
-python "DesktopDock.pyw"
+dotnet run --project src\DesktopDock\DesktopDock.csproj -c Release

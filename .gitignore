@@ -1,7 +1,8 @@
-# Runtime data written by the app into its own directory
+# Build output
+bin/
+obj/
+publish/
+
+# Runtime data the app writes next to its executable
 pins.txt
 icons/
-
-__pycache__/
-*.py[cod]
-.venv/
