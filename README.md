@@ -14,8 +14,8 @@ Grab the code, then either:
 - **Build a standalone exe** - double-click `publish.bat`. It produces
   `publish\DesktopDock.exe`, a single self-contained file (about 90 MB) that
   needs no .NET installed on the machine it runs on. Put it wherever you like
-  and start it. `publish.bat small` builds a ~3 MB exe instead, for machines
-  that already have the .NET 8 runtime.
+  and start it. `publish.bat small` builds a ~25 MB exe instead, for machines
+  that already have the .NET 8 runtime installed.
 - **Just run it** - double-click `run.bat`.
 
 Both need the [.NET 8 SDK](https://dotnet.microsoft.com/download) on the machine

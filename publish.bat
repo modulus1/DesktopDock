@@ -2,7 +2,7 @@
 rem Builds DesktopDock.exe into publish\.
 rem
 rem   publish.bat          one self-contained exe - runs anywhere, about 90 MB
-rem   publish.bat small    needs the .NET 8 runtime installed - about 3 MB
+rem   publish.bat small    needs the .NET 8 runtime installed - about 25 MB
 rem
 rem Building needs the .NET 8 SDK: https://dotnet.microsoft.com/download
 setlocal
